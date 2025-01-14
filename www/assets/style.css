@@ -1,0 +1,97 @@
+/* style.css */
+
+/* Overall dark mode styling */
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings in a pastel light blue */
+h1, h2, h3, h4, h5, h6 {
+  color: #a0c8ff; /* light pastel blue */
+}
+
+/* Make the subtitle smaller & a bit grayer */
+.server-subtitle {
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+/* We want links to be a darker blue, including visited links */
+a,
+a:visited {
+  color: #0077c2; /* darker blue stands out on black, not magenta */
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #1a8aff; /* lighter or brighter blue on hover */
+}
+
+/* Quicknav links can override or share the same styling. We keep them as is or lighten them slightly. */
+.quicknav-link {
+  /* Could keep them the same as above or tweak them a bit. */
+  color: #0077c2;
+}
+.quicknav-link:hover {
+  color: #1a8aff;
+}
+
+/* Title link for Discord heading */
+.title-link {
+  color: #a0c8ff; /* match headings if you want, or keep the link color. */
+  text-decoration: none;
+}
+.title-link:hover {
+  color: #c0dcff;
+}
+
+/* Container, centered */
+.container {
+  margin: 0 auto;
+}
+
+/* Page sections spacing */
+.page-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Accordion styling overrides */
+.accordion-button {
+  border: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #343a40;
+}
+.accordion-body {
+  color: #f1f1f1;
+  background-color: #121212; /* or #343a40, whichever dark shade you prefer */
+}
+.btn-primary {
+  background-color: #0b5ed7 !important; /* darker color (previously hover) */
+  border-color: #0b5ed7 !important;
+  color: #f8f9fa !important;
+  min-width: 100px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-primary:hover {
+  background-color: #0d6efd !important; /* brighter color (previously default) */
+  border-color: #0d6efd !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+.server-status-online {
+    color: #0f0; /* or #00FF00, or any green you like */
+}
+.server-status-offline {
+    color: #f00; /* or #FF0000 for red */
+}
