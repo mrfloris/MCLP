@@ -1,6 +1,6 @@
 # Specify filepatterns you want git to ignore.
 .DS_Store
-config.php
-logo.png
+www/includes/config.php
+www/assets/logo.png
 www/content/info.php
 www/content/faq.php
