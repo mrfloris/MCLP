@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Tell Apache to serve 404.php if a file or folder isn't found
+ErrorDocument 404 /404.php
+
+# 1) If the request is for assets or vendor with certain file extensions, SKIP rewriting.
+RewriteCond %{REQUEST_URI} ^/(assets|vendor)/.*\.(css|js|png|jpg)$ [NC]
+RewriteRule ^ - [L]  # do nothing, stop processing rules
+
+# 2) Otherwise, if it's includes|assets|vendor|content, REDIRECT to homepage.
+RewriteCond %{REQUEST_URI} ^/(includes|assets|vendor|content)/? [NC]
+RewriteRule ^.*$ https://%{HTTP_HOST} [R=301,L]
