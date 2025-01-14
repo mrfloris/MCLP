@@ -21,6 +21,7 @@ Simple Landing Page for a Small Minecraft Server
 - Global config.php file with variables that are used side-wide, so you can quickly make changes globally.
 - Global config.php file with shorthand php for those variables, so you can copy paste them wherever you want basically (apply some common sense though).
 - A great starting point for you to build out from. And your contributions can be offered here as a PR (pull request)for my consideration so it becomes merged into this project for all to enjoy. 
+- And a custom 404 page to catch all the fails.
 
 ## Installation
 - Configure your webserver the way you want. https:// is required for the click to clipboard to work. But, who doesn't have https:// these days. You can use Let's Encrypt cert-bot fairly easily these days to set up your virtual host in Apache.
