@@ -35,6 +35,12 @@ Simple Landing Page for a Small Minecraft Server
 - My .gitignore prevents uploading my own config.php by accident. You don't need my setup! 
 - The includes/default-config.php exists, just rename it to config.php and edit it before going live.
 
+## logo.png
+- I recommend a max of 500px wide, you can obviously decide to use logo.jpg, but the default is logo.png
+- It makes it 420px (hardcoded in includes/header.php), feel free to change this
+- .gitignore has logo.png so I can keep using my own. 
+- included is a default-logo.png under /assets/ just rename it to logo.png or upload your own logo.png
+
 ## mc_status_cache.php
 - Make sure your webserver can read/write this file in the directory. 
 - If you notice caching doesn't work, you could chmod 664 or 755 the file after creating it. 
