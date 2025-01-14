@@ -2,5 +2,5 @@
 .DS_Store
 config.php
 logo.png
-info.php
-faq.php
+www/content/info.php
+www/content/faq.php
