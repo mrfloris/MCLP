@@ -67,5 +67,5 @@ Version 0.3.2
 
 ## Screenshots
 <img width="1249" alt="Screenshot- 2025-01-14 at 23 00 36" src="https://github.com/user-attachments/assets/68c2a97c-009c-42b2-aefc-aa972813b76a" />
-More: [MCLP-Screenshots.zip](https://github.com/user-attachments/files/18416664/MCLP-Screenshots.zip)
+More: https://github.com/user-attachments/files/18416664/MCLP-Screenshots.zip
 
