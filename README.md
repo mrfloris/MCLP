@@ -29,6 +29,7 @@ Simple Landing Page for a Small Minecraft Server
 - But, then clone this repository, make the appropriate changes, update default-config.php to config.php and edit the content to your server details. 
 - Write your content on the indivual .php pages under /content/
 - Update the logo.png to your own (max 500px wide) server logo, you can find it in /assets/
+- Also update /content/default-info.php and default-faq.php to info.php and faq.php, as I won't be uploading my own to github.
 - Upload the files, and go test.
 
 ## config.php
@@ -40,6 +41,12 @@ Simple Landing Page for a Small Minecraft Server
 - It makes it 420px (hardcoded in includes/header.php), feel free to change this
 - .gitignore has logo.png so I can keep using my own. 
 - included is a default-logo.png under /assets/ just rename it to logo.png or upload your own logo.png
+
+## info.php
+- Rename /content/default-info.php to info.php and customize it. (I dont' want to share my live one)
+
+## faq.php
+- Rename /content/default-faq.php to faq.php and customize it. (I dont' want to share my live one)
 
 ## mc_status_cache.php
 - Make sure your webserver can read/write this file in the directory. 
