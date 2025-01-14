@@ -21,6 +21,7 @@ Simple Landing Page for a Small Minecraft Server
 - Global config.php file with variables that are used side-wide, so you can quickly make changes globally.
 - Global config.php file with shorthand php for those variables, so you can copy paste them wherever you want basically (apply some common sense though).
 - A great starting point for you to build out from. And your contributions can be offered here as a PR (pull request)for my consideration so it becomes merged into this project for all to enjoy. 
+- The FAQ page is an accordion design, collapsed by default. making it easier to navigate
 - A status display of the server, is it online or offline? And how many are playing out of max allowed.
 - And a custom 404 page to catch all the fails.
 
@@ -58,9 +59,8 @@ Simple Landing Page for a Small Minecraft Server
 - Talking about configuring your webserver, besides installing php mod for Apache, make sure you install mod_rewrite mod so you can use .htaccess directives to help improve directory protections. There's no need for people to list directories like /includes/ or /content/, etc. And this way you can also handle the 404 not found page. 
 
 ## TODO
-- Update home.php and/or info.php to include the variable for server_description
 - Move from locally hosted jQuery and Bootstrap to a CDN so we have less files to maintain
 - Move the 600s (10m) cache time to config.php
 
 ## Version
-Version 0.3.1
+Version 0.3.2

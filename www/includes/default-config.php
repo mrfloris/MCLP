@@ -49,7 +49,7 @@ $server_vote_site4_short	= "VS4";
 
 
 /* website details */
-$server_website_version = "0.3.1";
+$server_website_version = "0.3.2";
 
 /*
  Need to add more? Just add a new $variable ="something" And you can use it in your .php code like <?= $variable ?>
