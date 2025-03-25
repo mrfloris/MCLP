@@ -23,7 +23,7 @@ $server_season_four    = "Final Chapter";
 
 
 /* minecraft server environment details */
-$server_java_version    = "23.0.1";
+$server_java_version    = "23.0.2";
 
 
 /* discord server details */
