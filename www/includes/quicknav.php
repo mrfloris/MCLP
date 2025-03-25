@@ -15,6 +15,9 @@ if (!defined('MCLP_OK')) {
   <a class="btn btn-primary mx-2" href="#" onclick="loadSection('discord-section')">
     Discord
   </a>
+  <a class="btn btn-primary mx-2" href="#" onclick="loadSection('map-section')">
+    Map
+  </a>
   <a class="btn btn-primary mx-2" href="#" onclick="loadSection('vote-section')">
     Vote
   </a>
