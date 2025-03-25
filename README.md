@@ -24,18 +24,17 @@ Simple Landing Page for a Small Minecraft Server
 - The FAQ page is an accordion design, collapsed by default. making it easier to navigate
 - A status display of the server, is it online or offline? And how many are playing out of max allowed.
 - And a custom 404 page to catch all the fails.
+- Setup/ folder to help generate the config.php file.
 
 ## Installation
 - Configure your webserver the way you want. https:// is required for the click to clipboard to work. But, who doesn't have https:// these days. You can use Let's Encrypt cert-bot fairly easily these days to set up your virtual host in Apache.
-- But, then clone this repository, make the appropriate changes, update default-config.php to config.php and edit the content to your server details. 
+- But, then clone this repository, browse to yourwebsite.com/setup, fill out the form and click the submit button.
+- The config.php it generates, upload it to the includes/ folder
+- Delete the setup/ directory.
 - Write your content on the indivual .php pages under /content/
 - Update the logo.png to your own (max 500px wide) server logo, you can find it in /assets/
 - Also update /content/default-info.php and default-faq.php to info.php and faq.php, as I won't be uploading my own to github.
 - Upload the files, and go test.
-
-## config.php
-- My .gitignore prevents uploading my own config.php by accident. You don't need my setup! 
-- The includes/default-config.php exists, just rename it to config.php and edit it before going live.
 
 ## logo.png
 - I recommend a max of 500px wide, you can obviously decide to use logo.jpg, but the default is logo.png
@@ -63,7 +62,7 @@ Simple Landing Page for a Small Minecraft Server
 - Move the 600s (10m) cache time to config.php
 
 ## Version
-Version 0.3.2
+Version 0.4.0
 
 ## Screenshots
 <img width="1249" alt="Screenshot- 2025-01-14 at 23 00 36" src="https://github.com/user-attachments/assets/68c2a97c-009c-42b2-aefc-aa972813b76a" />
