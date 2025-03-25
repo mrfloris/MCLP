@@ -82,6 +82,8 @@ Shorthand echo statements (just handy)
 <?= $server_discord_owner1 ?>
 <?= $server_discord_owner2 ?>
 
+<?= $server_map_link ?>
+
 <?= $server_vote_rewards ?>
 
 <?= $server_vote_site1_url ?>
