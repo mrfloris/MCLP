@@ -31,6 +31,8 @@ $server_discord_link	= "discord.gg/floris";
 $server_discord_owner1	= "@mrfloris";
 $server_discord_owner2	= "@admins";
 
+/* live map details */
+$server_map_link	= "$server_ip:8100";
 
 /* voting for the server details */
 $server_vote_rewards		= "a diamond";
@@ -49,7 +51,7 @@ $server_vote_site4_short	= "VS4";
 
 
 /* website details */
-$server_website_version = "0.3.2";
+$server_website_version = "0.4.0";
 
 /*
  Need to add more? Just add a new $variable ="something" And you can use it in your .php code like <?= $variable ?>
